@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arimo', sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  height: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background: #ffffe6;
+  text-align: center;
+  font-size: 1.2rem;
+  border-right: 3px solid grey;
+  border-bottom: 2px solid grey;
+  
+}
+
+#navbar li {
+    border-top: 1px solid;
+     text-align: left;
+     padding: 10px 0px 10px 40px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: grey;
+  }
+
+#navbarHeader {
+  font-size: 1.6rem;
+}
+
+#main-doc {
+  margin-top: 260px;
+  padding: 0px 10px;
+}
+
+header {
+  font-size: 1.8rem;
+  margin: 15px 0px 15px;;
+}
+
+p {
+  font-size: .95rem;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+pre {
+  background-color: #e6e6e6;
+  overflow-x: auto;
+}
+
+pre code {
+  display: block;
+  text-align: left;
+}
+
+article {
+  width: 90%;
+}
+
+.listHeadings {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 800px){
+  #navbar {
+  height: 100%;
+  width: 340px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-size: 1.3rem;
+}
+  
+   #navbar li {
+    border-top: 1px solid;
+     text-align: left;
+     padding: 10px 0px 10px 40px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  #main-doc {
+    margin-top: 5px;
+    margin-left: 340px;
+    padding: 0px 10px;
+    padding-right: 20px;
+  }
+  
+  footer {
+    margin-left: 340px;
+  }
+  
+}
