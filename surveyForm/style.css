@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-  }
+}
   body {
     background-color: lightblue;
     font-size: 20px;
@@ -185,11 +185,11 @@
     padding: 5px;
     margin: 5px;
   }
-    #name-input-div input, #email-input-div input, #age-input-div input, #bestMovie-input-div select,#radio-buttons ul, #checkboxes-div ul, #text-area textarea{
+    #name-input-div input, #email-input-div input, #age-input-div input, #bestMovie-input-div select,#radio-buttons ul, #checkboxes-div ul, #text-area textarea {
     display: inline-block;
     width: 90%;
     padding: 5px;
     margin: 5px;
-    
-  
+    }    
+
   }

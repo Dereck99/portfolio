@@ -122,12 +122,12 @@ main {
 }
 
 .pricing ul li {
-    text-style: none;
+    text-decoration: none;
     list-style-type: none;
     font-size: .75rem;
   }
 ul {
-  text-style: none;
+  text-decoration: none;
   list-style-type: none;
 }
 
