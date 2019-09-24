@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: #42b3f4;
+  }
+  
+  .float {
+    display: inline-block;  
+  }
+  
+  #tempIcon {
+    color: blue;
+    cursor: pointer;
+  }
