@@ -1,0 +1,117 @@
+<link href="style.css" rel="stylesheet">
+<main id="main">
+  
+  <div id="titleContainer">
+    <h1 id="title">Survey Form</h1>
+  </div>
+  
+  <div id="outer-form">
+    <p id="description">Let us know how you would improve the godfather
+    </p>
+    <form id="survey-form">
+        <div class="name-labels" id="name-label-div">
+          <label id="name-label" for="name">NAME:</label>
+      </div>
+      <div id="name-input-div">
+            <input class="input-boxes" id="name" for="name" type="text" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="name-labels" id="email-label-div">
+          <label id="email-label" for="email">EMAIL:</label>
+      </div>
+      <div id="email-input-div">
+              <input class="input-boxes" id="email" type="email" name="email" placeholder="Enter your email address" required>
+        </div>
+          
+        <div class="name-labels" id="age-label-div">
+          <label id="number-label" for="age">AGE:</label>
+      </div>
+      <div id="age-input-div">
+            <input class="input-boxes" id="number" type="number"
+                   name="age" min = "1" max="125" placeholder="Enter your age" required>
+        </div>
+          
+      <div id="bestMovie-label-div" class="name-labels">
+        <label for="bestMovie">Of these movies, which is your favorite?</label>
+      </div>
+      <div id="bestMovie-input-div">
+        <select id="dropdown" name="bestMovie">
+          <option disabled value>Select a movie</option>
+          <option value="Godfather 1">The Godfather</option>
+          <option value="Godfather 2">The Godfather 2</option>
+          <option value="Godfather 3">The Godfather 3</option>
+          <option value="Goodfellas">Goodfellas</option>
+        </select>
+      </div>
+      
+      <div id="rating-div" class="name-labels" for="radio-buttons">
+        <label>Would you recommend this movie to your friends?</label>
+      </div>
+      
+      <div id="radio-buttons">
+        <ul>
+          <li class="radio">
+            <label for="movie-rating"></label>
+              <input id="radio" type="radio" name="movie-rating" value="1">For Sure!
+          </li>
+          <li class="radio">
+            <label for="movie-rating">
+              <input id="radio" type="radio" name="movie-rating" value="2">Maybe
+            </label>
+          </li>
+          <li class="radio">
+            <label for="movie-rating">
+              <input id="radio" type="radio" name="movie-rating" value="3">Not so much
+            </label>
+          </li>
+        </ul>
+        </label>
+     </div>
+      
+      <div id="changes-div" class="name-labels" for="checkboxes">
+        <label>If you could change any of these things about the movie, which would it be?           </label>
+      </div>
+    
+    <div id="checkboxes-div">
+        <ul>
+          <li class="checkbox">
+            <label for="movie-improvements">
+              <input class="checkbox" type="checkbox" name="movie-improvements" value="1">More Violence
+            </label>
+          </li>
+          <li class="checkbox">
+            <label for="movie-rating">
+              <input class="checkbox" type="checkbox" name="movie-improvements" value="2">More Romance
+            </label>
+          </li>
+          <li class="checkbox">
+            <label for="movie-rating">
+              <input class="chackbox" type="checkbox" name="movie-improvements" value="3">More Mystery
+            </label>
+          </li>
+        </ul>
+      </div>
+      
+    <div class="name-labels" id="comment-area-div">
+        <label for="comment-area">Any comments or suggestions?</label>
+    </div>
+    
+    <div id="text-area">
+          <textarea id="comments" class="comment" name="comment-area" style="height:50px;" placeholder="Place comment here..."></textarea>
+      </div>
+    
+    <div id="button">
+      <button id="submit" type="submit">Submit</button>
+    </div>
+    </form>
+  </div>
+
+  
+</main>
+
+<div>
+    <footer id="footer">
+      <hr>
+      <p>Written and coded by <a href="https://www.freecodecamp.com/dereck99" target="_blank">Dereck Coleman</a>.</p>
+    </footer>  
+</div>
