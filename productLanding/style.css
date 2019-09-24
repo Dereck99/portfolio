@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+#companyName {
+  margin-top: 1rem;
+  grid-area: title;
+  text-align: center;
+}
+
+#credit {
+  grid-area: credit;
+  margin-top: .50rem;
+}
+
+#nav-bar ul{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100%;
+  grid-area: navbar;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar li:hover {
+  transform: scale(1.2);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -210px;
+    visibility: hidden;
+}
+
+#video {
+  margin: 1rem;
+  width: 350x;
+  height: 200px;
+}
+
+#fullPage {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #F0F8FF;
+
+}
+
+#header {
+  padding-bottom: 1rem;
+  position: fixed;
+  background: #87CEEB;
+  width: 100%;
+  top: 0px;
+  display: grid;
+  font-size: .9rem;
+  grid-template-areas: "imageAndCaption navbar"
+                       "title           title";
+}
+
+#credit {
+  font-size: .8rem;
+}
+
+#imageAndCaption {
+  align-items: center;
+  padding: 1rem;
+  grid-area: imageAndCaption;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  background-color: #F5FFFA;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+#priceList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.pricing {
+  width: 80%;
+  border: solid grey 5px;
+  border-style: outset;
+  padding: 2px;
+  margin-bottom: 1rem;
+  
+}
+
+.pricing ul li {
+    text-style: none;
+    list-style-type: none;
+    font-size: .75rem;
+  }
+ul {
+  text-style: none;
+  list-style-type: none;
+}
+
+li {
+  padding: .25rem;
+}
+
+h3 {
+  padding: .5rem;
+}
+
+p {
+  padding: .5rem;
+}
+
+#aircraftMuseums li:hover {
+  transform: scale(1.2);
+}
+
+#aircraftVideos li:hover {
+  transform: scale(1.2);
+}
+
+#imbeddedVideo {
+  margin-bottom: 5rem;
+}
+
+#aircraftMuseums {
+  margin-bottom: 5rem;
+}
+
+#aircraftVideos {
+  margin-bottom: 5rem;
+}
+
+button {
+    background-color: #87CEEB;
+    color: blue;
+    cursor: pointer;
+  }
+
+#footer {
+  margin-top: 2rem;
+}
+
+@media (min-width: 800px) {
+    
+  main {
+    margin-top: 12rem;
+  }  
+  header {
+    align-items: center;
+  }
+    #nav-bar ul {
+      flex-direction: row;
+    } 
+    
+    #header {
+      grid-template-areas: "imageAndCaption title title navbar";
+
+    }
+  
+    #imageAndCaption {
+      height: 100%;
+      align-items: center;
+  }
+  
+  #priceList{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .pricing {
+    width: 30%;
+  }
+  
+  }
