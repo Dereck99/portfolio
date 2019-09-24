@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #d7e0ef;
+  }
+  
+  #text {
+    padding: 10px 10px 10px 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+     
+  }
+  
+  #author {
+    font-size: 1.25em;
+  }
+  
+  #quote-box {
+    height: 80%;
+    border: solid 1px #555;
+      background-color: #eed;
+    margin: 40px 100px 40px 100px;
+      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+        -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+        -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+          -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    transition: transform .5s ease-out .5s
+  }
+  
+  .transformedIn {
+    transform: scale(1);
+  }
+  
+  .transformedOut {
+    transform: scale(0);
+  }
+  
+  #buttonBox {
+    margin-top: 30px;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  
+  #new-quote {
+    cursor: pointer;
+  }
