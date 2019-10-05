@@ -167,5 +167,15 @@
       #outerProjectContainer {
         grid-template-columns: 1fr 1fr;
         padding: 15px 25px 15px 15px;
+        font-size: 1.0vw;
+    }
+  }
+
+  @media (max-width: 720px) {
+    #headerName {
+      font-size: 4.0vw;
+    }
+    #welcomeText {
+      font-size: 4.0vw;
     }
   }
