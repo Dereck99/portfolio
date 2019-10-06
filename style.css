@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
   }
+
+  body {
+    font: 16px;
+  }
   
   #followLinks {
     display: flex;
