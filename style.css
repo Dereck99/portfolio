@@ -179,9 +179,9 @@
 
   @media (max-width: 799px) {
     #headerName {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     #welcomeText {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
