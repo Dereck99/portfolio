@@ -171,7 +171,9 @@
       #outerProjectContainer {
         grid-template-columns: 1fr 1fr;
         padding: 15px 25px 15px 15px;
-        font-size: 3rem;
+    }
+    body {
+      font-size: 3rem;
     }
   }
 
