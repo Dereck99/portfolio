@@ -172,16 +172,16 @@
         grid-template-columns: 1fr 1fr;
         padding: 15px 25px 15px 15px;
     }
-    body {
+    /* body {
       font-size: 3rem;
-    }
+    } */
   }
 
-  @media (max-width: 799px) {
+  /* @media (max-width: 799px) {
     #headerName {
       font-size: 3rem;
     }
     #welcomeText {
       font-size: 3rem;
     }
-  }
+  } */
